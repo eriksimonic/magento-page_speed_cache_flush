@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ES_PageSpeedCacheFlush>
+            <version>0.1.0</version>
+        </ES_PageSpeedCacheFlush>
+    </modules>
+    <global>
+        <blocks>
+            <es_pagespeedcacheflush>
+                <class>ES_PageSpeedCacheFlush_Block</class>
+            </es_pagespeedcacheflush>
+        </blocks>
+        <models>
+        </models>
+    </global>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <es_pagespeedcacheflush>
+                    <file>es_page_speed/admin_cache_flush.xml</file>
+                </es_pagespeedcacheflush>
+            </updates>
+        </layout>
+    </adminhtml>
+    <admin>
+        <routers>
+            <es_page_speed_cache_flush>
+                <use>admin</use>
+                <args>
+                    <frontName>es_page_speed_cache_flush</frontName>
+                    <module>ES_PageSpeedCacheFlush_Adminhtml</module>
+                </args>
+            </es_page_speed_cache_flush>
+        </routers>
+    </admin>
+</config>
