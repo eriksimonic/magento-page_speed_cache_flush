@@ -1,0 +1,16 @@
+{
+    "name": "eriksimonic/magento-page_speed_cache_flush",
+    "license": "MIT",
+    "type": "magento-module",
+    "description": "Magento - Google page speed cache flush from admin Area",
+    "homepage": "https://github.com/eriksimonic/magento-page_speed_cache_flush",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Erik Simonič"
+        }
+    ]
+}
+
