@@ -1,0 +1,4 @@
+app/code/local/ES/PageSpeedCacheFlush                                           app/code/local/ES/PageSpeedCacheFlush
+app/design/adminhtml/base/default/layout/es_page_speed                          app/design/adminhtml/base/default/layout/es_page_speed
+app/design/adminhtml/base/default/template/es_pagespeedcacheflush               app/design/adminhtml/base/default/template/es_pagespeedcacheflush
+app/etc/modules/ES_PageSpeedCacheFlush.xml                                      app/etc/modules/ES_PageSpeedCacheFlush.xml

@@ -10,6 +10,6 @@ class ES_PageSpeedCacheFlush_Block_Flush extends Mage_Adminhtml_Block_Template
 {
     public function getFlushWsdlCacheUrl()
     {
-        return Mage::helper('adminhtml')->getUrl('bs_page_speed_cache_flush/Flush/Index');
+        return Mage::helper('adminhtml')->getUrl('es_page_speed_cache_flush/Flush/Index');
     }
 }

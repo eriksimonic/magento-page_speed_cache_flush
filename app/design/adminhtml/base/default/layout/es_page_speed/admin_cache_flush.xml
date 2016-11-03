@@ -2,7 +2,7 @@
 <layout>
     <adminhtml_cache_index>
         <reference name="cache.additional">
-            <block type="bs_pagespeedcacheflush/flush" template="bs_pagespeedcacheflush/flush_button.phtml"
+            <block type="es_pagespeedcacheflush/flush" template="es_pagespeedcacheflush/flush_button.phtml"
                    name="pagespped.flush"></block>
         </reference>
     </adminhtml_cache_index>
